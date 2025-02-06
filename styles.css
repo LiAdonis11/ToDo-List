@@ -10,7 +10,7 @@ body{
 
 .todo-list{
   background-color:  #E3FEF7;
-  width: 500px;
+  width: 600px;
   margin: 100px auto;
   padding: 50px;
   border-radius: 4px;
@@ -21,11 +21,13 @@ body{
 }
 h1{
   text-align: center;
+  font-size: 34px;
 }
 .todo-list ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-size: large;
 }
 
 .todo-list .item{
@@ -42,6 +44,7 @@ h1{
   list-style-position: inside;
   margin: auto 25px;
   
+  
 }
 .sub-item-link {
   text-decoration: none;
@@ -51,7 +54,7 @@ h1{
 .item input[type="checkbox"]{
   margin: 0 10px 15px 0;
 }
-a:hover{
+a.sub-item-link:hover{
   color: #77B0AA;
 }
 a:visited{
